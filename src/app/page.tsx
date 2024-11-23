@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -167,7 +167,7 @@ export default function Portfolio() {
       <div className="w-screen h-[2px] bg-white mt-16" data-aos="fade-right" data-aos-duration="1000"></div>
       {/* Footer */}
       <footer className="text-center text-white py-8" data-aos="fade-up"
-    data-aos-duration="1000">
+    data-aosduration="1000">
         <span className="font-bold text-3xl text-[#2cdae3]">My Portfolio</span>
         <br />
         <span className="font-bold text-2xl">Hafiz Hamza</span>
